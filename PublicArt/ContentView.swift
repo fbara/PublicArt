@@ -14,6 +14,7 @@ struct ContentView: View {
                 }
             }
             .navigationBarTitle("Artwork")
+            DetailView(artwork: artworks[0])
         }
     }
 }

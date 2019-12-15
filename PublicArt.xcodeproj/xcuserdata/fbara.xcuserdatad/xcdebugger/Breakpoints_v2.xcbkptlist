@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DEB8EB0D-8C12-4178-8C91-EC652EE075EB"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "136459FF-4716-4EFF-98B3-A1A57C207AB2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PublicArt/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "136459FF-4716-4EFF-98B3-A1A57C207AB2 - bdf6eb3e47e1f2e9"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; SwiftUI.Text in PublicArt.ContentView.body.getter : some"
+                  moduleName = "PublicArt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/ExtDrive/GoogleDrive/Coding/PublicArt/PublicArt/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "30">
+               </Location>
+               <Location
+                  uuid = "136459FF-4716-4EFF-98B3-A1A57C207AB2 - 531fb0e2d6d8eb5c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; SwiftUI.Text in (extension in PublicArt_PreviewReplacement_ContentView_6):PublicArt.ContentView.(__preview__body in _E04431A203563097708822DF2488322D).getter : some"
+                  moduleName = "ContentView.6.preview-thunk.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/ExtDrive/GoogleDrive/Coding/PublicArt/PublicArt/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "30">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

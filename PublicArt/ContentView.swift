@@ -23,6 +23,9 @@ struct ContentView: View {
                 NavigationLink(
                     destination: DetailView(artwork: artwork)) {
                         Text("\(artwork.reaction) \(artwork.title)")
+                            .onAppear() {
+                                artwork.load()
+                        }
                             .contextMenu {
                                 Button("Love it: 💕") {
                                     self.setReaction("💕", for: artwork)

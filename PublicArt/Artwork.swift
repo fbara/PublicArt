@@ -13,7 +13,35 @@ struct Artwork: Identifiable {
     let imageName: String
     let coordinate: CLLocationCoordinate2D
     var reaction: String
+    
+//    init(
+//        artist: String,
+//        description: String,
+//        locationName: String,
+//        discipline: String,
+//        title: String,
+//        imageName: String,
+//        coordinate: CLLocationCoordinate2D,
+//        reaction: String
+//        ) {
+//        print(">>>>> Downloading \(imageName) <<<<<")
+//        self.artist = artist
+//        self.description = description
+//        self.locationName = locationName
+//        self.discipline = discipline
+//        self.title = title
+//        self.imageName = imageName
+//        self.coordinate = coordinate
+//        self.reaction = reaction
+//    }
+    
+    func load() {
+        print(">>>>> Now Downloading \(self.imageName) <<<<<")
+    }
+    
 }
+
+
 
 let artData = [
   Artwork(artist: "Sean Browne", description: "Bronze figure of Prince Jonah Kuhio Kalanianaole", locationName: "Kuhio Beach", discipline: "Sculpture", title: "Prince Jonah Kuhio Kalanianaole", imageName: "002_200105", coordinate: CLLocationCoordinate2D(latitude: 21.273389, longitude: -157.823802), reaction: ""),

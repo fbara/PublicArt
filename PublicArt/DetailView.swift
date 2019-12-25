@@ -2,6 +2,8 @@
 import SwiftUI
 
 struct DetailView: View {
+    @State private var showMap = false
+    
     let artwork: Artwork
     
     var body: some View {
@@ -14,8 +16,20 @@ struct DetailView: View {
                 .font(.headline)
                 .multilineTextAlignment(.center)
                 .lineLimit(3)
-            Text(artwork.locationName)
-                .font(.subheadline)
+            HStack {
+                
+                Button(action: {
+                    self.showMap = true
+                }) {
+                    Image(systemName: "mappin.and.ellipse")
+                }
+                .sheet(isPresented: $showMap) {
+                    LocationMap(showModal: self.$showMap, artwork: self.artwork)
+                }
+
+                Text(artwork.locationName)
+                    .font(.subheadline)
+            }
             Text("Artist: \(artwork.artist)")
                 .font(.subheadline)
             Divider()
